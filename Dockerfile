@@ -9,4 +9,4 @@ RUN chown -R blog:blog .
 USER blog
 RUN bundle
 
-CMD ["jekyll", "serve", "-H", "0.0.0.0"]
+CMD ["jekyll", "serve", "-H", "0.0.0.0", "--drafts"]
